@@ -1,10 +1,6 @@
-import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from '..//NavTabs';
-import Home from './Home';
-import Project from './Project';
-import ProjectGallery from './ProjectGallery';
-import Contact from './Contact';
+import React from "react";
+import { NavLink } from 'react-router-dom';
+
 
 function Header() {
     return (
@@ -16,59 +12,46 @@ function Header() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <Router>
-                        <div>
-                            <NavTabs />
-                            {/* Wrap Route elements in a Routes component */}
-                            <Routes>
-                                {/* Define routes using the Route component to render different page components at different paths */}
-                                {/* Define a default route that will render the Home component */}
-                                <Route path="/" element={<Home />} />
-                                <Route path="projectGallery" element={<ProjectGallery />} />
-                                {/* Define a route that will have descendant routes */}
-                                <Route path="contact" element={<Contact />} />
-                            </Routes>
-                        </div>
-                    </Router>
-
-{/* 
-
-                    <ul className="navbar-nav">
+                    <ul className="nav nav-tabs">
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">About</a>
+                            <NavLink
+                                to="/"
+                                end
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active' : 'nav-link'
+                                }
+                            >
+                                Home
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#work">Work</a>
+                            <NavLink
+                                to="projectGallery"
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active' : 'nav-link'
+                                }
+                            >
+                                Project Gallery
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
+                            <NavLink
+                                to="contact"
+                                end
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active' : 'nav-link'
+                                }
+                            >
+                                Contact
+                            </NavLink>
                         </li>
-                    </ul> */}
-
-
-
-
-                </div>
+                    </ul>                </div>
             </nav>
+
+
+
         </div>
     );
 }
 
 export default Header;
-
-
-
-// <Router>
-// <div>
-//     <NavTabs />
-//     {/* Wrap Route elements in a Routes component */}
-//     <Routes>
-//         {/* Define routes using the Route component to render different page components at different paths */}
-//         {/* Define a default route that will render the Home component */}
-//         <Route path="/" element={<Home />} />
-//         <Route path="projectGallery" element={<ProjectGallery />} />
-//         {/* Define a route that will have descendant routes */}
-//         <Route path="contact" element={<Contact />} />
-//     </Routes>
-// </div>
-// </Router>
