@@ -56,16 +56,16 @@ the default bootstrap theme or an unstyled HTML site.
    * [x] Must be rendered across the entire site
    * [x] Must Contain a Navbar
 * [x] Project Gallery:
-  * [ ] Must render dynamically 6 instances of the Project component
-    * [ ] Be sure to store your project data in a JSON file and import it into your project
-* [ ] Project:
-   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-   * [ ] Must utilize router props to properly render the right project based on user selection
-   * [ ] Must render the following info:
-     * [ ] Project title
-     * [ ] Link to the deployed version
-     * [ ] Link to the GitHub repository
-     * [ ] GIF or screenshot of the deployed application
+  * [x] Must render dynamically 6 instances of the Project component
+    * [x] Be sure to store your project data in a JSON file and import it into your project
+* [x] Project:
+   * [x] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
+   * [    ] Must utilize router props to properly render the right project based on user selection
+   * [x] Must render the following info:
+     * [x] Project title
+     * [x] Link to the deployed version
+     * [x] Link to the GitHub repository
+     * [x] GIF or screenshot of the deployed application
 * [ ] Contact:
   * [ ] Must have contact information
   * [ ] Have a contact form for handling events
