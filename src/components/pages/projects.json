@@ -1,45 +1,44 @@
 [
     {
-      "id": 1,
-      "title": "YouTrip",
-      "appLink": "https://ionb23.github.io/YouTrip/",
-      "repoLink": "https://github.com/ionb23/YouTrip",
-      "demoImg": "https://raw.githubusercontent.com/ionb23/YouTrip/main/assets/images/demo-images/home-page-demo.png"
+        "id": 1,
+        "title": "YouTrip",
+        "appLink": "https://ionb23.github.io/YouTrip/",
+        "repoLink": "https://github.com/ionb23/YouTrip",
+        "demoImg": "https://raw.githubusercontent.com/ionb23/YouTrip/main/assets/images/demo-images/home-page-demo.png"
     },
     {
-      "id": 2,
-      "title": "YouTrip",
-      "appLink": "https://ionb23.github.io/YouTrip/",
-      "repoLink": "https://github.com/ionb23/YouTrip",
-      "demoImg": "https://raw.githubusercontent.com/ionb23/YouTrip/main/assets/images/demo-images/home-page-demo.png"
+        "id": 2,
+        "title": "Weather Forecast Dashboard",
+        "appLink": "https://github.com/ionb23/weather-forecast-dashboard",
+        "repoLink": "https://github.com/ionb23/weather-forecast-dashboard",
+        "demoImg": "https://raw.githubusercontent.com/ionb23/weather-forecast-dashboard/main/assets/images/website-demo.png"
     },
     {
-      "id": 3,
-      "title": "YouTrip",
-      "appLink": "https://ionb23.github.io/YouTrip/",
-      "repoLink": "https://github.com/ionb23/YouTrip",
-      "demoImg": "https://raw.githubusercontent.com/ionb23/YouTrip/main/assets/images/demo-images/home-page-demo.png"
+        "id": 3,
+        "title": "Professional README Generator",
+        "appLink": "https://github.com/ionb23/pro-readme-generator",
+        "repoLink": "https://github.com/ionb23/pro-readme-generator",
+        "demoImg": "https://raw.githubusercontent.com/ionb23/pro-readme-generator/main/sample-readme/demo-img.png"
     },
     {
-      "id": 4,
-      "title": "YouTrip",
-      "appLink": "https://ionb23.github.io/YouTrip/",
-      "repoLink": "https://github.com/ionb23/YouTrip",
-      "demoImg": "https://raw.githubusercontent.com/ionb23/YouTrip/main/assets/images/demo-images/home-page-demo.png"
+        "id": 4,
+        "title": "Team Profile Generator",
+        "appLink": "https://github.com/ionb23/team-profile-generator",
+        "repoLink": "https://github.com/ionb23/team-profile-generator",
+        "demoImg": "https://raw.githubusercontent.com/ionb23/team-profile-generator/main/sample/demo-img.png"
     },
     {
-      "id": 5,
-      "title": "YouTrip",
-      "appLink": "https://ionb23.github.io/YouTrip/",
-      "repoLink": "https://github.com/ionb23/YouTrip",
-      "demoImg": "https://raw.githubusercontent.com/ionb23/YouTrip/main/assets/images/demo-images/home-page-demo.png"
+        "id": 5,
+        "title": "Business Day Planner",
+        "appLink": "https://ionb23.github.io/business-day-planner-app/",
+        "repoLink": "https://github.com/ionb23/coding-quiz",
+        "demoImg": "https://raw.githubusercontent.com/ionb23/business-day-planner-app/main/assets/images/website-demo.png"
     },
     {
-      "id": 6,
-      "title": "YouTrip",
-      "appLink": "https://ionb23.github.io/YouTrip/",
-      "repoLink": "https://github.com/ionb23/YouTrip",
-      "demoImg": "https://raw.githubusercontent.com/ionb23/YouTrip/main/assets/images/demo-images/home-page-demo.png"
+        "id": 6,
+        "title": "Coding Quiz",
+        "appLink": "https://ionb23.github.io/coding-quiz/",
+        "repoLink": "https://github.com/ionb23/YouTrip",
+        "demoImg": "https://raw.githubusercontent.com/ionb23/coding-quiz/main/assets/images/website-demo-1.png"
     }
-  ]
-  
+]
