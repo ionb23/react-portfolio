@@ -66,10 +66,10 @@ the default bootstrap theme or an unstyled HTML site.
      * [x] Link to the deployed version
      * [x] Link to the GitHub repository
      * [x] GIF or screenshot of the deployed application
-* [ ] Contact:
-  * [ ] Must have contact information
-  * [ ] Have a contact form for handling events
-* [ ] Home:
+* [x] Contact:
+  * [x] Must have contact information
+  * [x] Have a contact form for handling events
+* [x] Home:
   * This should be a welcome landing page that contains:
      * [ ] Your Name
      * [ ] A Headshot of you
