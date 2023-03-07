@@ -1,0 +1,6 @@
+.App {
+    text-align: center;
+    background-image: url("https://github.com/ionb23/react-portfolio/blob/main/src/assets/background.png?raw=true");
+    background-size: cover;
+    height: 100vh;
+  }

@@ -13,8 +13,8 @@ function ProjectCard(props) {
             <strong>{props.title}</strong> 
           </li>
           <li className="d-flex align-items-center justify-content-around">
-            <a class="btn btn-primary" href={props.appLink} role="button"> <strong>App Link</strong> </a>
-            <a class="btn btn-primary" href={props.repoLink} role="button"> <strong>Repo Link</strong> </a>
+            <a class="btn btn-primary appBtn" href={props.appLink} role="button"> <strong>App Link</strong> </a>
+            <a class="btn btn-primary appBtn" href={props.repoLink} role="button"> <strong>Repo Link</strong> </a>
           </li>
         </ul>
       </div>

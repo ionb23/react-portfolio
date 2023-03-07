@@ -1,15 +1,15 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/pages/Header';
-import Home from './components/pages/Home';
-import ProjectGallery from './components/pages/ProjectGallery';
+import Header from './components/pages/Header/Header';
+import Home from './components/pages/Home/Home';
+import ProjectGallery from './components/pages/Project/ProjectGallery';
 import Contact from './components/pages/Contact/Contact';
-//import './App.css';
+import './AppStyle.css'
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className = "App">
         <Header />
         {/* <NavTabs /> calling this from header instead */}
         {/* Wrap Route elements in a Routes component */}

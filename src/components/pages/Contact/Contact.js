@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function Contact() {
   return (
-    <section className="contact" id="contact">
+    <section className="contact">
       <div className="container">
         <div className="row">
           <div className="col-6">

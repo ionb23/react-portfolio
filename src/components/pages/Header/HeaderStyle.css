@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    margin-left: 50px !important;
+    color: #333333 !important;
+}
+
+.nav-link {
+    color: #333333 !important;
+}
+
+.active {
+    color: #F99417 !important;
+}
+
+.nav-tabs {
+    border-bottom: 0 !important;
+    --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #dee2e6 !important;
+    margin-right: 30px;
+}
+
+.nav-link .active {
+    border-color: var(--bs-nav-tabs-link-active-border-color) !important;
+}
+
+.nav-tabs .nav-link {
+    border-bottom-left-radius: var(--bs-nav-tabs-border-radius) !important;
+    border-bottom-right-radius: var(--bs-nav-tabs-border-radius) !important;
+}

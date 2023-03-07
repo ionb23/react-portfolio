@@ -22,12 +22,12 @@ the default bootstrap theme or an unstyled HTML site.
 ### Base Requirements
 
 * Technologies that must be used:
-  * [ ] React
-  * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
+  * [x] React
+  * [x] Navigation with `React Router`, dynamic rendering, or another third part router
 * Your portfolio **must contain** the following information:
-  * [ ] Your name
-  * [ ] Links to your:
-    * [ ] GitHub Profile
+  * [x] Your name
+  * [x] Links to your:
+    * [x] GitHub Profile
     * [ ] LinkedIn Page
     * [ ] Email Address
     * [ ] Phone Number - (optional)
@@ -71,10 +71,10 @@ the default bootstrap theme or an unstyled HTML site.
   * [x] Have a contact form for handling events
 * [x] Home:
   * This should be a welcome landing page that contains:
-     * [ ] Your Name
-     * [ ] A Headshot of you
-     * [ ] Your brand statement
-     * [ ] Some indication that this is your portfolio site
+     * [x] Your Name
+     * [x] A Headshot of you
+     * [x] Your brand statement
+     * [x] Some indication that this is your portfolio site
 
 ### Updated Social Media Presence
 #### LinkedIn

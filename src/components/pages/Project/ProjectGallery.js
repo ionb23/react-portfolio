@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ProjectCard from './Project';
-import Wrapper from '../Wrapper/Wrapper';
+import Wrapper from '../../Wrapper/Wrapper';
 // import Title from './components/Title';
 import projectList from './projects.json';
 
