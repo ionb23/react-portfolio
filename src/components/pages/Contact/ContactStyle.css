@@ -1,13 +1,56 @@
-.contact {
-    padding-top: 0;
-  }
-
 .iconsCustom {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.iconsCustom i {
-    padding: 30px;
+.iconsCustom a {
+    color: #333333 !important;
+    transition: all .35s;
+}
+
+/*changes color on link hover*/
+a:hover,
+a:focus {
+    color: #F99417 !important;
+}
+
+.contactCTAmain {
+    padding-top: 100px !important;
+    color: #333333 !important;
+}
+
+.contactCTA {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #333333 !important;
+}
+
+.contactCTA2 {
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 2.5;
+    color: #333333 !important;
+}
+
+.formHeader {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333333 !important;
+}
+
+.btn-primary {
+    background-color: #F99417 !important;
+    border: 0 !important;
+    font-weight: bold !important;
+    transition: all .35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #333333 !important;
 }

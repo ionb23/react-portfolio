@@ -1,7 +1,7 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 325px;
+  height: 325px !important;
   margin: 1rem;
   position: relative;
   width: 500px;
@@ -14,10 +14,11 @@
   overflow: hidden;
   text-align: center;
   background: #6CADDC;
+  border-bottom: 2px black solid;
 }
 
 .card>.img-container>img {
-  width: 60%;
+  max-width: 100%;
   object-fit: cover !important;
 }
 
@@ -29,10 +30,13 @@
 
 .card>.content>ul {
   list-style-type: none;
+  padding: 0;
 }
 
 .card>.content>ul>li {
   margin-top: 18px;
+  font-size: 20px;
+  color: #333333;
 }
 
 .card>.remove {
@@ -51,4 +55,11 @@
 .appBtn {
   background-color: #F99417 !important;
   border: 0 !important;
+  transition: all .35s;
+}
+
+.appBtn:hover,
+.appBtn:focus {
+    background-color: #333333 !important;
+    color: white !important;
 }

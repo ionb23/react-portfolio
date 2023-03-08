@@ -28,8 +28,8 @@ the default bootstrap theme or an unstyled HTML site.
   * [x] Your name
   * [x] Links to your:
     * [x] GitHub Profile
-    * [ ] LinkedIn Page
-    * [ ] Email Address
+    * [x] LinkedIn Page
+    * [x] Email Address
     * [ ] Phone Number - (optional)
     * [ ] PDF version of your resume
       * Your resume **must** contain up-to-date projects and professional experience

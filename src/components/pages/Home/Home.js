@@ -8,13 +8,13 @@ function Home() {
     <section className="home">
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6 col-sm-12">
             <h1 className="text-center">Welcome.</h1>
             <p>
               My name is Ion Borziac, I'm a front-end developer based in London, UK. I like to craft solid and scalable front-end products with great user experience.
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6 col-sm-12">
             <div>
               <img className="avatar" src="https://github.com/ionb23/react-portfolio/blob/main/src/assets/avatar.jpeg?raw=true" alt="Picture of myself" />
             </div>

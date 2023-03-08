@@ -3,13 +3,13 @@ import "./FormStyle.css";
 
 function Form() {
   // Setting the component's initial state
-  const [formData, setFormData] = useState({ firstName: "", email: "", message: "" });
+  const [formData, setFormData] = useState({ firstName: "", email: "", subject: "", message: "" });
 
   const handleInputChange = event => {
     // Getting the value and name of the input which triggered the change
     const { name, value } = event.target;
 
-    if (name !== "message" || value.length <= 200) {
+    if (name !== "message" || value.length <= 100) {
       // Updating the input's state
       setFormData({
         ...formData,
@@ -32,6 +32,7 @@ function Form() {
       setFormData({
         firstName: "",
         email: "",
+        subject: "",
         message: ""
       });
     }
@@ -42,6 +43,7 @@ function Form() {
     <div>
       <form className="form">
         <input
+          className="form-control"
           value={formData.firstName}
           name="firstName"
           onChange={handleInputChange}
@@ -49,6 +51,7 @@ function Form() {
           placeholder="First Name"
         />
         <input
+          className="form-control"
           value={formData.email}
           name="email"
           onChange={handleInputChange}
@@ -56,13 +59,23 @@ function Form() {
           placeholder="Email"
         />
         <input
+          className="form-control"
+          value={formData.subject}
+          name="subject"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Subject"
+        />
+        <textarea
+          className="form-control"
+          rows="4"
           value={formData.message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="Type your message here..."
         />
-        <button onClick={handleFormSubmit}>Submit</button>
+        <button className="btn btn-primary" onClick={handleFormSubmit}>Send message</button>
       </form>
     </div>
   );
