@@ -12,9 +12,12 @@ function Contact() {
               <div className="text-start contactCTA">Let's chat.</div>
               <div className="text-start contactCTA">Tell me about your project.</div>
               <div className="text-start contactCTA2">Let's create something together!</div>
-            </div>
+            </div >
 
             <div className="d-flex align-items-center justify-content-around iconsCustom">
+              <a href="https://github.com/ionb23" target="_blank">
+                <i className="fa fa-file-text fa-3x"></i>
+              </a>
               <a href="https://github.com/ionb23" target="_blank">
                 <i className="fa fa-github fa-3x"></i>
               </a>
