@@ -31,7 +31,7 @@ the default bootstrap theme or an unstyled HTML site.
     * [x] LinkedIn Page
     * [x] Email Address
     * [ ] Phone Number - (optional)
-    * [ ] PDF version of your resume
+    * [x] PDF version of your resume
       * Your resume **must** contain up-to-date projects and professional experience
     * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
       * [ ] Project title
@@ -42,12 +42,12 @@ the default bootstrap theme or an unstyled HTML site.
 ### Required Components
 
 * At a minium, your portfolio must render these 6 components:
-  1. [ ] App
-  2. [ ] Header
-  4. [ ] Home
-  5. [ ] Project Gallery
-  6. [ ] Project
-  7. [ ] Contact
+  1. [x] App
+  2. [x] Header
+  4. [x] Home
+  5. [x] Project Gallery
+  6. [x] Project
+  7. [x] Contact
 
 ### Required Component Content
 * [x] App:
@@ -60,7 +60,7 @@ the default bootstrap theme or an unstyled HTML site.
     * [x] Be sure to store your project data in a JSON file and import it into your project
 * [x] Project:
    * [x] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-   * [    ] Must utilize router props to properly render the right project based on user selection
+   * [x] Must utilize router props to properly render the right project based on user selection
    * [x] Must render the following info:
      * [x] Project title
      * [x] Link to the deployed version

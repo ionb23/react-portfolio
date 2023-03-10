@@ -15,16 +15,16 @@ function Contact() {
             </div >
 
             <div className="d-flex align-items-center justify-content-around iconsCustom">
-              <a href="https://github.com/ionb23" target="_blank">
+              <a href="https://github.com/ionb23/react-portfolio/blob/main/src/assets/Ion_Borziac_CV_2023.pdf">
                 <i className="fa fa-file-text fa-3x"></i>
               </a>
-              <a href="https://github.com/ionb23" target="_blank">
+              <a href="https://github.com/ionb23">
                 <i className="fa fa-github fa-3x"></i>
               </a>
-              <a href="https://www.linkedin.com/in/ion-borziac/" target="_blank">
+              <a href="https://www.linkedin.com/in/ion-borziac/">
                 <i className="fa fa-linkedin fa-3x"></i>
               </a>
-              <a href="mailto:ion.borziac@gmail.com" target="_blank">
+              <a href="mailto:ion.borziac@gmail.com">
                 <i className="fa fa-envelope fa-3x"></i>
               </a>
             </div>
