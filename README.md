@@ -8,6 +8,18 @@ This app represents my portfolio page, which includes an short introduction on t
 
 <br>
 
+## Application link
+---
+Application can be accessed via [this link](https://ionb23.github.io/react-portfolio/).
+
+<br>
+
+## App demo screenshot:
+---
+![ScreenShot](/src/assets/app-demo.png)
+
+<br>
+
 ## License
 ---
 Copyright (c) Ion. All rights reserved.
